@@ -1,10 +1,9 @@
-import cats._
 import cats.data._
 import cats.implicits._
 
-import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
 
 object Chapter5 {
 
